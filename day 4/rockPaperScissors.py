@@ -2,15 +2,12 @@ import random
 import asciiArt
 
 game = ["rock", "paper", "scissors"]
-
-
 player = input("Rock, Paper, or Scissors? ") .lower()
 
 if player not in game:
     print("Invalid Choice")
+
 else:
-
-
     player = game.index(player)
     computer = random.randint(0, 2)
 
