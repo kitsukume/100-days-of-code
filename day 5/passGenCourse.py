@@ -1,4 +1,3 @@
-
 #Course version after review of solution
 import random
 
