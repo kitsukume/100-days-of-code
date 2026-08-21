@@ -1,3 +1,5 @@
+
+#Course version after review of solution
 import random
 
 letters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
@@ -26,6 +28,5 @@ random.shuffle(password_list)
 password = ""
 for char in password_list:
     password += char
-
 
 print(password)
